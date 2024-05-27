@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 class="apply-heading">Job Application Form</h2>
+    <form action="http://localhost/jobportal/apply.php" method="post" class="apply-form">
+        <div class="apply-field">
+            <label for="full_name" class="apply-label">Full Name:</label><br>
+            <input type="text" id="full_name" name="full_name" required class="apply-input"><br><br>
+        </div>
+
+        <div class="apply-field">
+            <label for="email" class="apply-label">Email Address:</label><br>
+            <input type="email" id="email" name="email" required class="apply-input"><br><br>
+        </div>
+
+        <div class="apply-field">
+            <label for="phone" class="apply-label">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" required class="apply-input"><br><br>
+        </div>
+
+        <div class="apply-field">
+            <label for="education" class="apply-label">Highest Level of Education:</label><br>
+            <input type="text" id="education" name="education" required class="apply-input"><br><br>
+        </div>
+
+        <div class="apply-field">
+            <label for="skills" class="apply-label">Skills:</label><br>
+            <textarea id="skills" name="skills" required class="apply-textarea"></textarea><br><br>
+        </div>
+
+        <div class="apply-field">
+            <label for="years_of_experience" class="apply-label">Years of Experience:</label><br>
+            <input type="number" id="years_of_experience" name="years_of_experience" required class="apply-input"><br><br>
+        </div>
+
+        <div class="apply-field">
+            <label for="refer" class="apply-label">References:</label><br>
+            <textarea id="refer" name="refer" required class="apply-textarea"></textarea><br><br>
+        </div>
+
+        <div class="apply-field">
+            <label for="title" class="apply-label">Role Applying For:</label><br>
+            <input type="text" id="title" name="title" required class="apply-input"><br><br>
+        </div>
+
+        <button type="submit" value="submit" name="submit" class="apply-button">Submit</button>
+    </form>
+</body>
+</html>
+

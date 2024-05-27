@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Job Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="title">Job Portal</h1>
+    </header>
+    <main>
+        <div id="register-form" class="register-container">
+            <h2 class="register-heading">Register</h2>
+            <form action="http://localhost/jobportal/register.php" method="post" class="register-form">
+                <div class="register-field">
+                    <label for="fname" class="register-label">First Name:</label>
+                    <input type="text" id="fname" name="fname" required class="register-input">
+                </div>
+                
+                <div class="register-field">
+                    <label for="lname" class="register-label">Last Name:</label>
+                    <input type="text" id="lname" name="lname" required class="register-input">
+                </div>
+                
+                <div class="register-field">
+                    <label for="reg-email" class="register-label">Email:</label>
+                    <input type="email" id="email" name="email" required class="register-input">
+                </div>
+                
+                <div class="register-field">
+                    <label for="dob" class="register-label">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required class="register-input">
+                </div>
+                
+                <div class="register-field">
+                    <label for="password" class="register-label">Password:</label>
+                    <input type="password" id="password" name="password" required class="register-input">
+                </div>
+                
+                <button type="submit" value="register" name="register" class="register-button">Register</button>
+            </form>
+        </div>
+    </main>
+    
+</body>
+</html>
+
