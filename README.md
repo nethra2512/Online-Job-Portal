@@ -21,7 +21,7 @@ This is a simple Job Portal web application that allows users to register, log i
 1. **Clone the repository:**
 
     ```sh
-    git clone https://github.com/your-username/online-job-portal.git
+    git clone https://github.com/nethra2512/online-job-portal.git
     ```
 
 2. **Navigate to the project directory:**
